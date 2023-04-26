@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+  background-image: url("/public/weather-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.navBar {
+  background-image: linear-gradient(to top, #0077ff, #a163d4);
+}
+
+.nav-link {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #202020;
+}
+
+.logo {
+  height: 80px;
+}
+
+.searchCard {
+  margin: 1em auto;
+  width: 45%;
+  background: rgb(32, 218, 240);
+  background: linear-gradient(
+    61deg,
+    rgba(32, 218, 240, 1) 0%,
+    rgba(231, 231, 231, 1) 50%,
+    rgba(32, 218, 240, 1) 100%
+  );
+}
+
+.mainCards {
+  width: 75%;
+  background: rgb(153, 231, 240);
+  background: linear-gradient(
+    61deg,
+    rgba(153, 231, 240, 0.95) 0%,
+    rgba(237, 241, 154, 0.9) 80%,
+    rgba(250, 193, 255, 0.5) 100%
+  );
+}
+
+@media (max-width: 767px) {
+  .mainCards {
+    width: 100%;
+  }
+}
+
+.mainCardTitle,
+.linkTitle {
+  font-size: xx-large;
+  text-decoration: none;
+  color: black;
+}
+
+.mainCardsButton {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: 2px solid grey;
+}
+
+.mainCardsButton:hover {
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  border: 3px solid rgb(77, 77, 77);
+}
+
+.viewFav {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid white;
+  font-size: 1.3em;
+  color: black;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.viewFav:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 1.3em;
+  color: black;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.yourFav {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid white;
+  color: black;
+  border-radius: 3px;
+  width: 90%;
+  margin-top: 1em;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-fav-message {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid white;
+  color: black;
+  border-radius: 3px;
+  width: 90%;
+  margin-top: 1em;
+  text-align: start;
+}
+
+.main-container {
+  padding-bottom: 140px;
+}
+
+.small-card {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rgb(168, 246, 255);
+  background: linear-gradient(
+    354deg,
+    rgb(203, 241, 245, 1) 0%,
+    rgba(231, 231, 231, 1) 50%,
+    rgba(203, 241, 245, 1) 100%
+  );
+}
+
+.showCase {
+  border: 2px solid black;
+  padding: 10px;
+}
